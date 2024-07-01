@@ -1,0 +1,269 @@
+.product-details {
+    .shoes-heading {
+        color: #000;
+        font-family: Satoshi;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .serial-number {
+        font-family: Satoshi;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        :first-child {
+            color: #696969;
+        }
+    }
+
+    .full-preview {
+        height: 500px;
+
+        @media (max-width:430px) {
+            height: 100% !important;
+
+        }
+
+        @media (min-width:432px) and (max-width:770px) {
+            height: 229px !important;
+
+        }
+
+        @media (min-width:771px) and (max-width:1030px) {
+            height: 338px !important;
+
+        }
+    }
+
+    .current-price {
+        color: #000;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .old-price {
+        color: var(--Neutral-500, #64748B);
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-decoration-line: strikethrough;
+    }
+
+    .discount {
+        background: rgba(255, 51, 51, 0.10);
+        display: inline-flex;
+        padding: 6px 14px;
+        justify-content: center;
+        align-items: center;
+        color: #F33;
+        font-family: Satoshi;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 62px
+    }
+
+    .text-custom {
+        color: rgba(0, 0, 0, 0.60);
+    }
+
+    .custom-button-sizing {
+        padding: 8px 25px;
+        font-size: 18px;
+        background-color: #F0F0F0;
+        margin-right: 2%;
+    }
+
+    .hover-set {
+        background-color: #000;
+        color: #FFF;
+    }
+
+    .counter-setting {
+        display: flex;
+        justify-content: center;
+    }
+
+    .counter-bg {
+        background-color: #F0F0F0;
+        padding: 7% 6%;
+
+        @media (max-width:425px) {
+            padding: 4% 6%;
+
+        }
+
+        @media (min-width:430px) and (max-width:770px) {
+            padding: 10% 15%;
+
+
+        }
+    }
+
+    .cart-button {
+        padding: 12px 12px;
+
+        @media (max-width:425px) {
+            margin-top: 22px;
+        }
+    }
+
+    .increment {
+        margin-right: 3rem;
+
+        @media (min-width:430px) and (max-width:770px) {
+            margin-right: 1rem;
+
+
+        }
+    }
+
+    .decrement {
+        margin-left: 3rem;
+
+        @media (min-width:430px) and (max-width:770px) {
+            margin-left: 1rem;
+
+
+        }
+    }
+
+    .size-cart {
+        color: var(--Neutral-900, #0D0F11);
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        text-decoration-line: underline;
+        margin-left: 11px;
+    }
+
+    .accordion {
+        .description {
+            margin-left: 6px;
+            color: var(--Text-color-Default-text, #121212);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+}
+
+// Pills And Tabs
+.custom-tabs {
+    .nav-pills .nav-link.active {
+        color: black !important;
+        background-color: white !important;
+    }
+
+    .nav-link {
+        color: rgba(0, 0, 0, 0.60);
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        border-radius: 0px !important;
+        width: 100%;
+
+        &.active {
+            border-bottom: 2px solid #000;
+            font-weight: 600; // Change this to the color you want for the active tab
+        }
+
+    }
+
+    .nav-link:hover,
+    .nav-link:focus {
+        color: black;
+    }
+}
+
+.tabs-data {
+    margin-top: 30px;
+
+    .top-row {
+        display: flex;
+        justify-content: space-between;
+
+        @media (max-width:430px) {
+            display: block;
+
+
+
+        }
+    }
+
+    .all-review {
+        color: #000;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        @media (max-width:430px) {
+            font-size: 14px;
+            margin-bottom: 12px;
+
+        }
+    }
+
+    .review {
+        .btn {
+            -bs-btn-padding-x: 0rem;
+        }
+    }
+
+    .arrange {
+        background-color: #F0F0F0;
+        padding: 10px;
+        border-radius: 30px;
+    }
+
+    .form-select {
+        width: 100px;
+    }
+
+    .custom-select {
+        border: 0;
+        background-color: #F0F0F0;
+        border-radius: 31px;
+    }
+
+    .tab-content {
+        .card-title {
+            color: #000;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px;
+
+        }
+
+        .card-details {
+            color: rgba(0, 0, 0, 0.60);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px;
+
+        }
+
+        .posted-date {
+            margin-top: 12px;
+            color: rgba(0, 0, 0, 0.60);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px;
+        }
+    }
+}

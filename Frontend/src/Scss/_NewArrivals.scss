@@ -1,0 +1,84 @@
+.header-arrivals {
+    background-image: url("../assets/Images/new-arrivals.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .shop-now {
+        font-size: 18px;
+        font-weight: 500;
+        padding: 0.7% 5%;
+    }
+}
+
+// Best Seller
+.best-seller {
+    .best-arrivals {
+        margin-top: 6%;
+        color: #000;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .card-title {
+        margin-top: 5px;
+        color: #000;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .card-text {
+        color: #000;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .card-price {
+        color: #000;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .new-tag {
+
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 6px;
+        background-color: #000;
+        line-height: normal;
+        padding: 4px 8px;
+    }
+
+    .plus-icon {
+        color: var(--Neutral-800, #191D23);
+        font-family: Satoshi;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: inline-flex;
+        padding: 3px 14px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        background: #FFF;
+        box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.12);
+    }
+}

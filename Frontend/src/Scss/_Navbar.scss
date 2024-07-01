@@ -1,0 +1,11 @@
+.star {
+    @media (max-width:780px) {
+        display: none;
+    }
+}
+
+.cart {
+    @media (min-width:780px) {
+        margin-left: 2rem;
+    }
+}

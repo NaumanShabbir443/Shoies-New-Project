@@ -1,0 +1,369 @@
+.header {
+    background-image: url("../assets/Images/banarImage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.matches {
+    color: #7AFF58;
+}
+
+.find-shoes {
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 64px;
+
+    @media (max-width:450px) {
+        font-size: 28px;
+        font-weight: 100;
+        line-height: 32px;
+        margin-bottom: 1rem;
+    }
+
+    @media (min-width:450px) and (max-width:1024px) {
+        font-size: 45px;
+        font-weight: 100;
+        line-height: 32px;
+        margin-bottom: 1rem;
+    }
+
+}
+
+.header-para {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+
+// brand section
+
+.brand-name {
+    background-color: #010000;
+}
+
+// Silder File "Slider.tsx"
+// Arrivals 
+.arrivals {
+    margin-top: 3%;
+
+    .new-arrivals {
+        color: #000;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 500;
+        margin-bottom: 15%;
+
+        @media (max-width:425px) {
+            font-size: 15px;
+
+        }
+
+        @media (min-width: 426px) and (max-width: 1030px) {
+            font-size: 22px;
+        }
+
+
+    }
+
+    .see-more {
+        color: var(--Neutral-700, #323A46);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration-line: underline;
+        cursor: pointer;
+    }
+
+    .slider-container {
+        .card {
+            width: 97% !important;
+            cursor: pointer;
+
+            .like-icon img {
+                cursor: pointer;
+            }
+
+            .plus-button img {
+                cursor: pointer;
+
+            }
+
+            .card-title {
+                color: #000;
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+
+            .card-text {
+                color: #000;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+            }
+
+            .card-price {
+                color: #000;
+                font-family: Roboto;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                cursor: pointer;
+            }
+        }
+
+        .slick-dots {
+            display: none !important;
+        }
+
+        .plus-icon {
+            color: var(--Neutral-800, #191D23);
+            font-family: Satoshi;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            display: inline-flex;
+            padding: 3px 14px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 12px;
+            background: #FFF;
+            box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.12);
+        }
+    }
+
+
+    .border-custom {
+        border-radius: 5px;
+        border: 1px solid var(--Neutral-300, #B8C0CC);
+        padding: 10px 13px;
+        cursor: pointer;
+
+    }
+}
+
+// Best Seller
+.collection {
+    .my-stery {
+        bottom: 2%;
+        left: 10%;
+        color: #FFF;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+
+        @media (max-width:1030px) {
+            font-size: 28px;
+
+        }
+    }
+
+    .card-title {
+        color: #000;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .arrow {
+        right: 11%;
+        transform: translateY(-50%);
+        bottom: 5%;
+        background-color: #fff;
+        padding: 12px 16px;
+        border-radius: 40px;
+        width: 42px
+    }
+
+    .cards {
+        @media (max-width:450px) {
+            margin-top: 3rem;
+        }
+    }
+}
+
+// categories 
+
+.categories {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+
+    .card-img-overlay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .card-title {
+            color: #FFF;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+
+            @media (max-width:1030px) {
+                font-size: 28px;
+
+            }
+        }
+    }
+
+    .small-slider {
+        .my-stery {
+            bottom: 2%;
+            left: 10%;
+            color: #FFF;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+
+            @media (max-width:1030px) {
+                font-size: 28px;
+
+            }
+        }
+
+        .arrow {
+            right: 11%;
+            transform: translateY(-50%);
+            bottom: 2%;
+            background-color: #fff;
+            padding: 12px 16px;
+            border-radius: 40px;
+            width: 42px
+        }
+    }
+
+    .hoodies {
+        @media (max-width:450px) {
+            margin-top: 15px;
+        }
+
+        .my-stery {
+            bottom: 2%;
+            left: 10%;
+            color: #FFF;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+
+            @media (max-width:1030px) {
+                font-size: 28px;
+
+            }
+        }
+
+        .arrow {
+            right: 11%;
+            transform: translateY(-50%);
+            bottom: 2%;
+            background-color: #fff;
+            padding: 12px 16px;
+            border-radius: 40px;
+            width: 42px
+        }
+    }
+}
+
+// Slippers
+
+.slippers {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+    .card {
+        background-color: #F3F3F3;
+        border: none;
+
+        .slider-sllipers {
+            display: flex;
+            align-items: end;
+            position: relative;
+
+            h3 {
+                color: #1C1B20;
+                font-family: Roboto;
+                font-size: 38px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+
+            .arrow-set {
+                position: absolute;
+                left: 250px;
+                bottom: 12px;
+                background-color: black;
+                padding: 8px 8px;
+                border-radius: 27px;
+                cursor: pointer;
+            }
+        }
+
+
+    }
+}
+
+// Match Your Style
+.match-style {
+    background-color: #E6DFD7;
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+    .card {
+        padding: 12px 22px;
+
+        .card-body h5 {
+            color: var(--Neutral-800, #191D23);
+            font-family: Satoshi;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 113.3%;
+        }
+
+        .update-arrow {
+            @media (max-width:1024px) {
+                display: none;
+            }
+        }
+
+        .get-update {
+            @media (max-width:770px) {
+                margin-top: 12px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
